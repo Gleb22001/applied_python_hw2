@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirements.txt ./
 COPY config.py ./
 COPY bot.py ./
-ENV BOT_TOKEN=7725812259:AAEYikG2yIPT3YM0_A6rxdbIY8HfdMYIcZc
+ENV BOT_TOKEN=***
 
 # Устанавливаем зависимости
 RUN pip install --no-cache-dir -r requirements.txt
